@@ -4,13 +4,7 @@ class Pizza:
         self.__ingredients = []
         self.__ingredients = ingredients
         self.__prix = prix
-    
-    def add_ingredient(self,ingredient):
-        self.__ingredients.append(ingredient)
-
-    def remove_ingredient(self,ingredient):
-        self.__ingredients.remove(ingredient)
-
+        
     def get_pizza_name(self):
         return self.__nom
     
