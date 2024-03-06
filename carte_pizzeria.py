@@ -12,7 +12,7 @@ class CartePizzeria:
     def nb_pizzas(self):
         return len(self.__pizzas)
     
-    def add_pizzas(self,pizza):
+    def add_pizza(self,pizza):
         self.__pizzas.append(pizza)
 
     def remove_pizza(self,name):
